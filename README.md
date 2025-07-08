@@ -12,7 +12,7 @@ Apart from interesting real world applications of bike sharing systems, the char
 
 Here is the directory and file structure of this project:
 ```
-Bike_Sharing
+Bike-Sharing
 ├───dashboard
 │       dashboard.py
 │       day.csv
@@ -44,21 +44,17 @@ Bike-sharing rental process is highly correlated to the environmental and season
 ## How to Use
 1. Clone this repository:
    ```
-   git clone https://github.com/nizma123/My_Portfolio.git
+   git clone https://github.com/nizma123/Bike-Sharing.git
    ```
-2. Navigate to the project directory:
-   ```
-   cd Bike_Sharing
-   ```
-3. Install depedencies:
+2. Install depedencies:
    ```
    pip install -r requirements.txt
    ```
-4. Run the Jupyter Notebook:
+3. Run the Jupyter Notebook:
    ```
    jupyter notebook notebook.ipynb
    ```
-5. To run the dashboard on local, execute the following command:
+4. To run the dashboard on local, execute the following command:
    ```
    streamlit run dashboard/dashboard.py
    ```
